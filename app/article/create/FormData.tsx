@@ -7,27 +7,32 @@ type Props = {};
 
 export default function Ajouter({}: Props) {
   const router = useRouter();
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+    e.preventDefault(); // Empêche le rechargement de la page lors de la soumission du formulaire
+
+    // Crée un objet FormData à partir du formulaire soumis
     const formData = new FormData(e.currentTarget);
+
+    // Convertit FormData en un objet JavaScript ordinaire
     const data = Object.fromEntries(formData.entries());
 
-    // Ajout d'un article
+    // Ajout d'un article via une requête POST
     fetch("http://localhost:4000/articles", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        id: Math.floor(Math.random() * 1000),
-        titre: data.titre,
-        contenu: data.contenu,
-        auteur: data.auteur,
-        date: new Date(),
+        id: Math.floor(Math.random() * 1000), // Génère un ID aléatoire pour l'article
+        titre: data.titre, // Récupère le titre du formulaire
+        contenu: data.contenu, // Récupère le contenu du formulaire
+        auteur: data.auteur, // Récupère l'auteur du formulaire
+        date: new Date(), // Ajoute la date actuelle
       }),
     }).then(() => {
-      router.refresh();
-      router.push("/");
+      router.refresh(); // Rafraîchit la page
+      router.push("/"); // Redirige vers la page d'accueil
     });
   };
   return (
