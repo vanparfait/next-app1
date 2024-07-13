@@ -8,7 +8,7 @@ export type PropsArticle = {
   contenu: string;
   auteur: string;
   date: string;
-  lienImage?: string;
+  lienImage: string;
 };
 
 export default async function page() {
