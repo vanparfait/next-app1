@@ -44,9 +44,9 @@
       "lienImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0KLSXc2C5bKvxPVUtEzEJ6XYWXl1z4NAhA&s"
     },
     {
-      "titre": "sfbsfbsf",
-      "contenu": "fdrnbd",
-      "auteur": "sfbsfbsf",
+      "titre": "developpeuse",
+      "contenu": "je serai developpeuse fronted react.",
+      "auteur": "Nguemechia parfait",
       "id": 5,
       "lienImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0KLSXc2C5bKvxPVUtEzEJ6XYWXl1z4NAhA&s"
     },
@@ -58,9 +58,9 @@
       "lienImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0KLSXc2C5bKvxPVUtEzEJ6XYWXl1z4NAhA&s"
     },
     {
-      "titre": "Test tache",
-      "contenu": "Disposant de toutes les compétences nécessaires afin de mener à bien ce projet, Nous avons donc choisi la création d’une plateforme de rationalisation des .\nAinsi, les hôpitaux et les communes disposeront d’un outil lui permettant d’archiver et de réaliser des études sur les stages des différents étudiants, et de permettre à ceux-ci de trouver un stage plus rapidement.\nLes étudiants pourront venir consulter le contenu de la plateforme afin de faciliter leur recherche de stage.\nDans un premier temps, nous évoquerons donc la conduite du projet à partir de la création, puis l’analyse, la réalisation de ce projet et enfin les différentes difficultés rencontrées.\n",
-      "auteur": "Tacite bahiga",
+      "titre": "developpeur",
+      "contenu": "je serai developpeur fronted react.",
+      "auteur": "Nguemechia",
       "date": "2023-11-23T13:05:19.016Z",
       "id": 7,
       "lienImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0KLSXc2C5bKvxPVUtEzEJ6XYWXl1z4NAhA&s"
@@ -94,6 +94,13 @@
       "contenu": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
       "auteur": "Aline",
       "date": "2024-07-13T12:46:42.567Z"
+    },
+    {
+      "id": 293,
+      "titre": "developpeur",
+      "contenu": "je serai developpeur fronted react.",
+      "auteur": "Nguemechia",
+      "date": "2024-07-15T12:16:17.535Z"
     }
   ]
 }

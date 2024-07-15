@@ -13,7 +13,11 @@ export type PropsArticle = {
 
 export default async function page() {
   const getArticles = async () => {
-    const response = await fetch("http://localhost:3000/api/articles");
+    const response = await fetch("http://localhost:3000/api/articles", {
+      next: {
+        revalidate: 10,
+      },
+    });
     const data = await response.json();
     return data;
   };
